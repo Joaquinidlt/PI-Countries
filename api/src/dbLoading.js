@@ -8,7 +8,6 @@ async function loadingDb(_req, res) {
       const ApiAll = await axios.get(URL_ALL); //Traigo todo de la API;
       const ModelCountries = ApiAll.data.map( c => { //Guardo dentro los detalles de toda la API;
         return {
-          /* id: c.alpha3Code, */
           name: c.name,
           alpha3Code: c.alpha3Code,
           flag: c.flag,
@@ -19,10 +18,8 @@ async function loadingDb(_req, res) {
           population: c.population,
         };
       });
-      /* console.log(ApiAll); */
        ModelCountries.forEach( async e => {
         await Country.create({ //Creo los detalles en la db;
-            /* id: e.alpha3Code, */
             name: e.name,
             alpha3Code: e.alpha3Code,
             flag: e.flag,
@@ -34,7 +31,6 @@ async function loadingDb(_req, res) {
         });
       }); 
     }
-    console.log("Loading DB success;");
   } catch (error) {
     console.log(error);
     res.status(500).send("Server crashed.");
