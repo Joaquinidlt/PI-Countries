@@ -1,0 +1,21 @@
+/* body{
+  margin: 0;
+  padding: 0;
+  background: #34495e;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "montserrat",sans-serif;
+} */
+
+.loading{
+  height: 100px;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}

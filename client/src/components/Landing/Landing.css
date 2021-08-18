@@ -1,0 +1,80 @@
+
+
+    .about-sectionL{
+        background: url(../Earth/fondoOscuro3.jpg);
+        background-size: 120%;
+        background-position: 15px -170px;
+        background-color: #00000000;
+        overflow: hidden;
+        margin-top: 40px;
+    
+    }
+    .info1{
+    height: 60%;
+    width: 55%;
+    float: right;
+    color: #fff;
+    background-color: #c4242400;
+    padding: 110px;
+    border-radius: 8px;
+    
+    }
+    
+    .info1 h1{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    
+    .textL{
+        font-size: 13px;
+        color: #ffffff;
+        line-height: 22px;
+        text-align: justify;
+        margin-bottom: 40px;
+    }
+    .styleL {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .start {
+        margin-bottom: 20px;
+        background-color: rgb(29, 33, 48);
+        border-radius: 3px;
+        border: 0.5px solid #ffffff;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 14px;
+        padding: 9px 35px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #5d5a5f;
+    }
+    @media screen and (max-width:1200px){
+        .inner-container{
+            padding: 80px;
+        }
+    }
+    
+    @media screen and (max-width:1000px){
+        .about-section{
+            background-size: 100%;
+            padding: 100px 40px;
+        }
+        .inner-container{
+            width: 100%;
+        }
+    }
+    
+    @media screen and (max-width:600px){
+        .about-section{
+            padding: 0;
+        }
+        .inner-container{
+            padding: 60px;
+        }
+    }

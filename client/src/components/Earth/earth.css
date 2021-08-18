@@ -1,0 +1,61 @@
+
+.styleP {
+    font-weight: 700;
+}
+
+.about-section{
+    background: url(./fondoOscuro3.jpg);
+    background-size: 130%;
+    background-position: 0px -130px;
+    background-color: #00000000;
+    overflow: hidden;
+
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    color: #fff;
+    background-color: #c4242400;
+    padding: 57px;
+    border-radius: 8px;
+}
+
+.inner-container h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 22px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
