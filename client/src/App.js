@@ -17,7 +17,6 @@ function App() {
     <Provider store={store}>
     <div className="App">
       <AnimatePresence exitBeforeEnter>
-
           <Route path="/">
             <Nav />
           </Route>
